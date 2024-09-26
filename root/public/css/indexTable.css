@@ -1,0 +1,15 @@
+.scrollable {
+    max-height: 35px;
+    overflow-y: auto;
+}
+
+.date-table {
+    max-height: 20px;
+    overflow-y: auto;
+}
+
+.action-btn {
+    max-width: 150px;
+    overflow-x: auto;
+    white-space: nowrap;
+}

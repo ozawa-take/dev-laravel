@@ -1,0 +1,15 @@
+tbody tr {
+    cursor: move;
+}
+
+@media (min-width: 1400px) {
+    .action {
+        display: inline-block;
+    }
+}
+
+@media (max-width: 1400px) {
+    .action {
+        margin-top: 2px;
+    }
+}

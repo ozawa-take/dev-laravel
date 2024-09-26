@@ -1,0 +1,17 @@
+/* Choices.jsのCSS */
+
+/* セレクトボックスの背景色を白色にする */
+.choices__inner {
+    background-color: #ffffff;
+}
+
+/* セレクトボックスのinput部分の背景色を透明にする */
+.choices__input--cloned {
+    background-color: transparent !important;
+}
+
+/* セレクトボックスの角を丸める */
+.choices[data-type*="select-one"] .choices__inner,
+.choices[data-type*="select-multiple"] .choices__inner {
+    border-radius: 4px; /* 適宜角の丸みの値を調整 */
+}

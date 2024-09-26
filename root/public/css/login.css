@@ -1,0 +1,158 @@
+
+html
+{
+    font-size: 10px;
+    font-family: sans-serif;
+}
+
+body
+{
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+    margin: 0;
+}
+
+#container
+{
+    text-align: left;
+
+}
+
+#content
+{
+    text-align: left;
+    min-height: 600px;
+    max-width:  1200px;
+    margin: auto;
+    width: 100%;
+
+}
+
+@media only screen and (max-width: 800px)
+{
+}
+
+.panel
+{
+    margin: 3px;
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    object-fit: contain;
+    background-color: #fff;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    box-shadow: 0 1px 1px rgba(0,0,0,.05);
+}
+
+form .required label::after
+{
+    color: #e32;
+    content: '*';
+    font-size: 125%;
+    display: inline;
+}
+
+.row::before, .row::after , .panel-body::before, .panel-body::after
+{
+    display: table;
+    content: " ";
+}
+
+.panel-body::after, .row::after
+{
+    clear:both;
+}
+
+.panel-info .panel-heading
+{
+    border-color: #bce8f1;
+}
+
+.panel-info
+{
+    border-color: #bce8f1;
+}
+
+.panel-heading
+{
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+.form-signin .form-control
+{
+    position: relative;
+    height: auto;
+    box-sizing: border-box;
+    padding: 20px;
+    font-size: 16px;
+}
+
+.form-signin .btn
+{
+    padding: 20px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.form-signin
+{
+    max-width: 600px;
+}
+
+form
+{
+    clear: both;
+    margin-right: 20px;
+    padding: 0;
+    width: 95%;
+}
+
+form .input
+{
+    color: #444;
+    padding: 10px;
+}
+
+.form-group
+{
+    margin-bottom: 15px;
+}
+
+input[type='text']
+{
+    display: block;
+    width: 100%;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s
+}
+
+label
+{
+    font-size: 120%;
+    margin-bottom: 3px;
+    max-width: 100%;
+    font-weight: 700;
+}
+
+.btn-lg
+{
+    width:100%;
+}
+
+.user_login #remember_me
+{
+    margin-left: 10px;
+}
+
